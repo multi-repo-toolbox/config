@@ -1,0 +1,11 @@
+# Test data. Changing of this file would require changes in
+# yaml_test.go tests!
+
+services:
+  service1:
+    base: ./non-existent/path/to/svc1
+    command: svcname
+
+  service2:
+    base: ./non-existent/path/to/svc2
+    command: svcname2 -opt1 -opt2 arg1
