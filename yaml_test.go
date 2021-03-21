@@ -2,7 +2,16 @@ package config
 
 import "testing"
 
-func TestBasicExample_Load(t *testing.T) {
+func TestBasicExample_LoadCompose(t *testing.T) {
+	_, err := LoadComposeFile("testdata/basic-example.yaml")
+
+	if err != nil {
+		t.Fatalf("success parsing expected but got error: %s", err)
+	}
+	//	t.Logf("%+v", cfg)
+}
+
+func TestBasicExample_LoadExtended(t *testing.T) {
 	_, err := LoadFile("testdata/basic-example.yaml")
 
 	if err != nil {
