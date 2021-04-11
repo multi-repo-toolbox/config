@@ -1,4 +1,4 @@
-module github.com/multi-repo-toolbox/config
+module github.com/multi-repo-toolbox/fileconf
 
 go 1.16
 

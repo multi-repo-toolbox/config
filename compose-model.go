@@ -1,4 +1,4 @@
-package config
+package fileconf
 
 // Compose keeps configuration for docker-compose.
 type Compose struct {

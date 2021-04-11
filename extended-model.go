@@ -1,4 +1,4 @@
-package config
+package fileconf
 
 // Extended keeps full configuration for MRT that includes
 // fields for the docker-compose.
